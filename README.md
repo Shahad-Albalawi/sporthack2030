@@ -6,6 +6,21 @@ It combines a Swift-based mobile application with an advanced AI system to provi
 
 ---
 
+## Screenshots
+
+<p align="center">
+  <img src="images/home.png" width="250"/>
+  <img src="images/exercises.png" width="250"/>
+  <img src="images/report.png" width="250"/>
+</p>
+
+<p align="center">
+  <img src="images/archive-progress.png" width="250"/>
+  <img src="images/video-analysis.png" width="250"/>
+</p>
+
+---
+
 ## Problem
 
 Many individuals struggle with training effectively due to:
@@ -39,10 +54,12 @@ Optimum is powered by an advanced AI system designed to evaluate athletic perfor
 
 ### Key AI Features
 
-- Pose estimation using MediaPipe (33 body landmarks)  
+- Pose estimation using MediaPipe
 - Object detection and tracking using YOLO  
 - Automatic sport recognition based on movement patterns  
 - Biomechanics-based evaluation independent of user level  
+
+---
 
 ### Performance Evaluation
 
@@ -51,12 +68,16 @@ Optimum is powered by an advanced AI system designed to evaluate athletic perfor
 - Identification of strengths and mastered skills  
 - Personalized improvement recommendations  
 
+---
+
 ### Real-Time Processing
 
 - Live skeletal tracking visualization  
 - Object interaction tracking  
 - Continuous performance updates  
 - Support for live camera and uploaded videos  
+
+---
 
 ### Reporting
 
@@ -69,12 +90,10 @@ Optimum is powered by an advanced AI system designed to evaluate athletic perfor
 
 ## System Architecture
 
-Optimum follows a modular and scalable architecture designed for real-time sports analysis.
-
-The system is divided into:
+Optimum follows a modular and scalable architecture for real-time sports analysis:
 
 - AI Analysis Layer: pose estimation, detection, evaluation  
-- Video Processing Pipeline: live + uploaded video analysis  
+- Video Processing Pipeline: live and uploaded video analysis  
 - Biomechanical Engine: movement quality assessment  
 - API Layer: communication between app and AI system  
 - Reporting System: performance reports and exports  
