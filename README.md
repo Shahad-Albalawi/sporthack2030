@@ -73,30 +73,31 @@ Optimum follows a modular and scalable architecture designed for real-time sport
 
 The system is divided into:
 
-- AI Analysis Layer: Handles pose estimation, object detection, and movement evaluation  
-- Video Processing Pipeline: Processes live and uploaded video input efficiently  
-- Biomechanical Engine: Evaluates movement quality using sports science principles  
-- REST API Layer: Connects mobile application with AI backend  
-- Reporting System: Generates structured performance reports and exports  
+- AI Analysis Layer: pose estimation, detection, evaluation  
+- Video Processing Pipeline: live + uploaded video analysis  
+- Biomechanical Engine: movement quality assessment  
+- API Layer: communication between app and AI system  
+- Reporting System: performance reports and exports  
 
 ---
 
 ## Technology Stack
 
-- Mobile App: Swift (iOS)  
-- AI & ML: Computer vision models for movement analysis  
-- Computer Vision: MediaPipe, YOLO  
-- Backend: Python-based processing system  
-- Output: PDF, CSV, JSON reporting  
+- Swift (iOS App)  
+- Python (AI Processing)  
+- MediaPipe  
+- YOLO  
+- OpenCV  
+- Machine Learning  
 
 ---
 
 ## Use Cases
 
 - Home fitness training  
-- Beginner guidance and form correction  
-- Athlete performance improvement  
-- Injury prevention and movement correction  
+- Form correction for beginners  
+- Athlete performance tracking  
+- Injury prevention support  
 
 ---
 
@@ -108,4 +109,4 @@ Optimum aims to make professional sports training accessible, scalable, and data
 
 ## Project Context
 
-This project was developed as part of SportHack2030, focusing on innovation in the sports and fitness industry.
+Developed during SportHack2030, focusing on innovation in sports technology.
